@@ -87,7 +87,7 @@ Calculator(15,5)
 // method  --- deposit() , withdrawl()
 
 
-let s = 100  // -190 , 0 , 33 , 55.6
+let s1 = 100  // -190 , 0 , 33 , 55.6
 console.log(typeof s)
 
 let d = true 

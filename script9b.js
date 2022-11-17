@@ -27,19 +27,19 @@
 
 // }
 
-let randomNumber3 = Math.floor(Math.random() * 6 + 1)
-console.log(randomNumber3)
-let userInput;
-while (userInput != randomNumber3) {
-    userInput = prompt('Enter the number between 1 to 6')
-    if (userInput == randomNumber3) {
-        console.log('you guess is correct')
-        break
-    }
-    else {
-        console.log("You guess is incorrect")
-    }
-}
+// let randomNumber3 = Math.floor(Math.random() * 6 + 1)
+// console.log(randomNumber3)
+// let userInput;
+// while (userInput != randomNumber3) {
+//     userInput = prompt('Enter the number between 1 to 6')
+//     if (userInput == randomNumber3) {
+//         console.log('you guess is correct')
+//         break
+//     }
+//     else {
+//         console.log("You guess is incorrect")
+//     }
+// }
 
 
 

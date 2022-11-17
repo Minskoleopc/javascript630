@@ -78,7 +78,6 @@ for(let i = 0 ; i < 6 ;i++){ // 1 // 2 // 3
     console.log(i) //0 // 1 // 2
 }
 
-//chinmay-deshpande 7709192441
 
 
 

@@ -70,3 +70,4 @@ console.log(q1 - 5)
 
 
 // functions
+// functions (declartion / expression / arrow function)

@@ -96,6 +96,90 @@ console.log(typeof q7)
 // join()
 
 
+//              0       1         2        3
+let fruits = ["apple","banana","grapes","mango"]
+
+// push()
+let a1 = fruits.push("Chikoo")
+console.log(a1)
+console.log(fruits)
+
+//unshift()
+let a2 =fruits.unshift("Papaya")
+console.log(a2)
+console.log(fruits)
+
+//pop()
+let a3 = fruits.pop()
+console.log(a3)
+console.log(fruits)
+
+//shift()
+let a4 = fruits.shift()
+console.log(a4)
+console.log(fruits)
+
+// includes()
+let a5 = fruits.includes("Apple")
+console.log(a5)
+
+// join()
+let a6 = fruits.join('-')
+console.log(a6)
+console.log(typeof a6)
+
+//------------------------------------------------->
+// program 1
+//               0      1    2   3
+let birthYear = [1989,1990,1991,1992]
+let ages = []
+// [33,32,31,30]
+// console.log(birthYear[0])
+// console.log(birthYear[1])
+
+for(let i = 0 ; i < birthYear.length ; i++){
+   // console.log(i)
+   console.log(2022 - birthYear[i])
+   let a = 2022 - birthYear[i]
+   ages.push(a)
+}
+console.log(ages)
+
+
+// program2
+
+//           0  1  2  3  4   5
+let ages2 = [22,33,43,22,33,44]
+let above30 = []
+// [33,43,33,44]
+for(let i = 0 ; i < ages2.length ; i++){
+    //console.log(i)
+    console.log(ages2[i])
+    if(ages2[i] > 30){
+        above30.push(ages2[i])
+    }
+}
+console.log(above30)
+
+// program3 
+
+let s = [11,22,33]
+let total = 0
+
+for(let i = 0 ; i < s.length ; i++){
+    total = total + s[i]
+    //       0    +  11   =====> 11
+    //       11   +  22   =====> 33
+    //       33   +  33   =====> 66
+}
+console.log(total)
+// Support Person
+
+// Friday - 9:30 to 10 pm
+
+
+
+
 
 
 
