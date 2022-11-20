@@ -69,3 +69,5 @@ let q5 = marks.reduce(function(acc,el,index,arr){
     return acc + el  // =====> 11 ====> 33 ======>  66
 },0)
 console.log(q5)
+
+
