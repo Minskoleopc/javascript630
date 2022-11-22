@@ -82,8 +82,6 @@ console.log(q3)
 
 
 // Program2 
-
-
 let numbers2 = [44,55,22,33,77,88,55,66,88,]
 // [55,77,88,,55,66,88]
 let above50 = []
@@ -106,10 +104,8 @@ console.log(q5)
 
 
 // Program3
-
 let numbers4 = [11,22,33]
 let total = 0
-
 for(let i = 0 ; i <  numbers4.length ; i++){
     // console.log(i)
     // console.log(numbers4[i])
