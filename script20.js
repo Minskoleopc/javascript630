@@ -108,12 +108,12 @@ students.forEach(function(el){
 
 // program7
 
-let q4 = students.filter(function(el){
-    return el.firstName.startsWith('a')
-})
+// let q4 = students.filter(function(el){
+//     return el.firstName.startsWith('a')
+// })
 
-q4.forEach(function(el){
-    console.log(el.firstName)
-})
+// q4.forEach(function(el){
+//     console.log(el.firstName)
+// })
 
 
