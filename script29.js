@@ -78,7 +78,6 @@ for(let [k,v] of Object.entries(info2)){
     console.log(k,v)
 }
 
-
 // let a = [33,44,55]
 // let [a1,a2] = a
 // console.log(a1)
@@ -125,9 +124,10 @@ let setF = new Set(
     ]
 
 )
-
 console.log(setF)
-
 for(let {firstName,lastName} of setF.keys()){
     console.log(firstName,lastName)
 }
+
+
+// 10 am

@@ -79,3 +79,95 @@ for(let val of alpha.values()){
 for(let [k,v] of alpha.entries()){
     console.log(k,v)
 }
+
+// set() , get() , delete() , clear() , has() ,keys(),values()
+// entries() , forEach()
+// size()
+
+let a = new Map()
+let b = new Map([
+    ['r',"rabbit"],
+    ['s','sun'],
+    ['t','television']
+])
+
+
+// ---------------------------------> 
+
+let quiz = new Map(
+    [
+        ['questions','answers'],
+        ['capital of MH','mumbai'],
+        ['capital of MP','bhopal'],
+        ['capital of RJ','jaipur']
+    ]
+)
+
+
+console.log(quiz.get('capital of MH'))
+
+
+
+
+
+// let count = 0
+// for(let [k,v] of quiz.entries()){
+//     //console.log(k,v)
+//     if(k.startsWith('c')){
+//        let userInput =  prompt(k)
+//        if(userInput === v){
+//             count = count + 1
+//        }
+//     }
+// }
+
+// if(count === 3){
+//     console.log('Gold')
+// }
+// else if(count === 2){
+//     console.log('Silver')
+// }
+// else if(count === 1){
+//     console.log('Bronze')
+// }
+// else {
+//     console.log('Please try again')
+// }
+
+
+
+// let count = 0
+// for(let [k,v] of quiz.entries()){
+//     //console.log(k,v)
+//     if(k.startsWith('c')){
+//        let userInput =  prompt(k)
+//        if(userInput === quiz.get(k)){
+//             count = count + 1
+//        }
+//     }
+// }
+
+// if(count === 3){
+//     console.log('Gold')
+// }
+// else if(count === 2){
+//     console.log('Silver')
+// }
+// else if(count === 1){
+//     console.log('Bronze')
+// }
+// else {
+//     console.log('Please try again')
+// }
+
+
+// Remove duplicate element from array
+
+let duplicate = ["amol","raj","amol","ninad","vijeet"]
+let q7 = new Set(duplicate)
+console.log(q7)
+let w1 = Array.from(q7)
+console.log(w1)
+
+
+// object array string map set userdefined
