@@ -37,13 +37,11 @@
 
 
 // program (index3.html)
-
-let headingElement = document.querySelector('h1')
-let buttonThree = document.querySelector('button')
-let inputText = document.querySelector('input')
-
-buttonThree.addEventListener('click',function(){
-    let colorText = inputText.value
-    headingElement.style.color = colorText
-    inputText.value = ""
-})  
+// let headingElement = document.querySelector('h1')
+// let buttonThree = document.querySelector('button')
+// let inputText = document.querySelector('input')
+// buttonThree.addEventListener('click',function(){
+//     let colorText = inputText.value
+//     headingElement.style.color = colorText
+//     inputText.value = ""
+// })  
