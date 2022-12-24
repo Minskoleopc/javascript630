@@ -1,9 +1,6 @@
 let ulList = document.querySelector('ul')
 let buttonId = document.querySelector('#addButton')
 let inputElement = document.querySelector('input')
-
-
-
 buttonId.addEventListener('click', function () {
     let text = inputElement.value
     let liElement = document.createElement('li') // <li></li>
