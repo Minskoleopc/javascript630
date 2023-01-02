@@ -67,8 +67,6 @@ let headThree =document.querySelector('h3')
 headThree.classList.add('g')
 
 // other attributes
-
 let h4 = document.querySelector('h4')
 console.log(h4.getAttribute('id'))
-
 h4.setAttribute('name',"k")
