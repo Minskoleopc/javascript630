@@ -93,6 +93,11 @@ let pravin = Object.create(obj)
 pravin.init("pravin","tambe",34,54,["css","html","js"])
 console.log(pravin)
 pravin.display()
+// object --
+// object literal
+// function constructor
+// es6 class
+// Object.create() method
 
 
 
