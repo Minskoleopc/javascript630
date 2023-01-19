@@ -36,8 +36,6 @@ function Person(firstName,lastName,age,rollNo){
 }
 
 
-
-
 let ram = new Person("ram","dani",133,4)
 let ram2 = new Person("ram2","dani2",132,45)
 // console.log(ram)

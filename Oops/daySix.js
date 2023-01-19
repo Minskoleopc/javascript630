@@ -71,7 +71,6 @@ console.log(sarika.lastName)
 
 console.log(sarika.getLastName())
 
-////////////////
 
 class PersonD {
     set fName(fn){

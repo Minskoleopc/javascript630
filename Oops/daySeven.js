@@ -109,6 +109,6 @@ class PersonE {
         console.log("hello "+name)
     }   
 }
-
 // static methods can be directly on class name
 PersonE.greeting("chinmay")
+

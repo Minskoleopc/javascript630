@@ -62,9 +62,7 @@ class Son  extends Mother {
         console.log(this.sname + this.lastName)
     }
 
-
 }
-
 let chinmay = new Son("ram","sham","rami")
 chinmay.displayName()
 
