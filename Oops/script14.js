@@ -79,4 +79,154 @@ console.log(q2)
 let AdditionC = (x,y) =>x + y
 let q3  = AdditionC(12,14)
 console.log(q3)
+
 // rest and spread operator
+
+// lexical scope 
+
+// function Sub(){
+//     let x = 10 
+//     let y = 5
+//     console.log(x+y)
+//     function SubB(){
+//         let a = 100
+//         let b = 50
+//         console.log(x+y+a+b)
+//         //console.log(a1+a2)
+//         function SubC(){
+//             let a1 = 100
+//             let a2 = 50
+//             console.log(a1+a2+a+b+x+y)
+//         }
+//         SubC()
+//     }
+//     SubB()
+// }
+// Sub()
+
+// closures 
+
+function addition(){
+    let qq = 100
+    let qq2 = 50
+
+    return function(){
+        console.log(qq+qq2)
+    }
+}
+
+let a = addition()
+console.log(a)
+
+// let a = function(){
+//     console.log(qq+qq2)
+// }
+
+a()
+
+
+
+function additionE(x,y){
+    console.log(x+y)
+    return x + y
+}
+let a1 = additionE(12,4)
+console.log(a1)
+
+
+let additionF = function(x,y){
+    return x + y
+}
+let a2 = additionF(1,2)
+console.log(a2)
+
+
+let additionG = (x,y)=>{
+    return x + y
+}
+let a3 = additionG(1,2)
+console.log(a3)
+
+let additionGa = (x,y)=> x + y
+let a4 = additionGa(1,2)
+console.log(a4)
+
+// action difference between arrow function and function expression
+
+var firstName = "ninad"
+var lastName = "deshmukh"
+
+
+// let ram = {
+//     firstName:"ram",
+//     lastName:"dani",
+//     display:function(){
+//         // console.log(this) // ram
+//         console.log(this.firstName + this.lastName)
+//         let display2 = function(){
+//             //console.log(this) // window
+//             console.log(this.firstName+this.lastName)
+//         }
+//         display2()
+//     }
+// }
+
+// ram.display()
+
+
+
+// let ram = {
+//     firstName:"ram",
+//     lastName:"dani",
+//     display:function(){
+//         // console.log(this) // ram
+//         console.log(this.firstName + this.lastName)
+
+//         let display2 = ()=>{
+//             console.log(this.firstName+this.lastName)
+//         }
+//         display2()
+//     }
+// }
+
+// ram.display()
+
+
+
+
+// let ram = {
+//     firstName:"ram",
+//     lastName:"dani",
+//     display:()=>{
+//         // console.log(this) // ram
+//         console.log(this.firstName + this.lastName)
+//         let display2 = ()=>{
+//             console.log(this.firstName+this.lastName)
+//         }
+//         display2()
+//     }
+// }
+
+//ram.display()
+
+
+
+
+
+
+
+
+
+
+
+
+// ram.display()
+// console.log(ram.display)
+// console.log(ram.firstName)
+
+
+
+//let aa = ram.display
+// let aa = function(){
+//     console.log(this.firstName + this.lastName)
+// }
