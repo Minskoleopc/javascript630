@@ -6,6 +6,8 @@ console.log(ulList)
 console.log(inputText)
 console.log(buttonB)
 
+
+
 buttonB.addEventListener('click',function(){
     let text = inputText.value
     //console.log(text)
