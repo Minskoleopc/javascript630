@@ -26,23 +26,20 @@ function getUserInfo(id){
     })
 }
 
-// getUserPage(1)
-// .then(function(res){
-//     //console.log(res.data[0].id)
-//     return res.data[0].id
-// })
-// .then(function(id){
-//     return getUserInfo(id)
-// })
-// .then(function(res){
-//     console.log(res)
-//     renderHtml(res.data)
-// })
-
+getUserPage(1)
+.then(function(res){
+    //console.log(res.data[0].id)
+    return res.data[0].id
+})
+.then(function(id){
+    return getUserInfo(id)
+})
+.then(function(res){
+    console.log(res)
+    renderHtml(res.data)
+})
 
 // async ---- execution --- userDetailPageWise ----id -- next api --- obj ---- html
-
-
 async function getInfo2(pageNumber){
     let res = await getUserPage(pageNumber)
     let ida = res.data[0].id
