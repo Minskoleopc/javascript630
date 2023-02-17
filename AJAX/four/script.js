@@ -219,6 +219,107 @@ async function getUser2() {
 // Promise.any()
 
 
+// sync A ----->B --------> C
+
+// A
+// B      
+// C
+
+// Promise.all
+// Promise.allSettled
+// Prmonise.race
+// Promise.any
+
+
+
+
+let p11 = new Promise(function (resolve, reject) {
+    setTimeout(() => {
+        resolve('hello')
+    }, 3000);
+})
+
+let p22 = new Promise(function (resolve, reject) {
+    setTimeout(() => {
+        resolve('Bye')
+    }, 2000);
+})
+
+let p33 = new Promise(function (resolve, reject) {
+    setTimeout(() => {
+        resolve('Hi')
+    }, 2000);
+})
+
+let p44 = new Promise(function (resolve, reject) {
+    setTimeout(() => {
+        reject('Fail')
+    }, 2000);
+})
+
+// async function GetInfo(){
+//     let q11 = await Promise.all([
+//         p11,
+//         p22,
+//         p44,
+//         p33
+//     ]
+// )
+
+//     //["Hello","Hi", "Bye"]
+//     console.log(q11)
+// } 
+// GetInfo()
+
+
+// Promise.race
+async function Rac(){
+    let q2 = await Promise.race([
+        p11,
+        p44
+        .catch(function(){
+            console.log('too late to respond')
+        })
+    ])
+    console.log(q2)
+}
+//Rac()
+
+// 5 sec  ---
+// 5 error
+
+//All settled
+// async function Alls(){
+//     let q2 = await Promise.allSettled([
+//         p11,
+//         p22,
+//         p33,
+//         p44
+//     ])
+//     console.log(q2)
+// }
+// Alls()
+
+// any
+
+async function anyP(){
+   let q3 = await Promise.any([
+        p44,
+        p11,
+        p22,
+        p33
+    ])
+    console.log(q3)
+}
+anyP()
+
+
+
+
+
+
+
+
 
 
 
